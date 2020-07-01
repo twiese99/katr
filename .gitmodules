@@ -1,0 +1,18 @@
+[submodule "katr-api"]
+	path = katr-api
+	url = git@github.com:twhx99/katr-api.git
+[submodule "katr-core"]
+	path = katr-core
+	url = git@github.com:twhx99/katr-core.git
+[submodule "katr-runtime"]
+	path = katr-runtime
+	url = git@github.com:twhx99/katr-runtime.git
+[submodule "katr-server"]
+	path = katr-server
+	url = git@github.com:twhx99/katr-server.git
+[submodule "katr-frontend"]
+	path = katr-frontend
+	url = git@github.com:twhx99/katr-frontend.git
+[submodule "katr-backend"]
+	path = katr-backend
+	url = git@github.com:twhx99/katr-backend.git
