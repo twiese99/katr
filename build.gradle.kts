@@ -15,10 +15,10 @@ allprojects {
     if (System.getenv("GITHUB_ACTIONS")?.toBoolean() == true) {
         val ref = System.getenv("GITHUB_REF") ?: ""
         val sha = System.getenv("GITHUB_SHA").subSequence(0, 8)
-        if (ref.startsWith("refs/tags/release/")) {
-            version = ref.removePrefix("refs/tags/release/")
+        version = if (ref.startsWith("refs/tags/release/")) {
+            ref.removePrefix("refs/tags/release/")
         } else {
-            version = "$version-${sha}"
+            "$version-${sha}"
         }
     }
 
