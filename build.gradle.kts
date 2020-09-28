@@ -1,9 +1,9 @@
 plugins {
-    java
-    `java-library`
-    `maven-publish`
-    kotlin("jvm") version "1.3.72"
-    kotlin("kapt") version "1.3.72"
+    kotlin("jvm") version "1.4.10"
+    kotlin("kapt") version "1.4.10"
+    id("org.gradle.java")
+    id("org.gradle.java-library")
+    id("org.gradle.maven-publish")
     id("net.minecrell.licenser") version "0.4.1"
 }
 
