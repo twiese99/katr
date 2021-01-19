@@ -10,7 +10,8 @@ case ${option} in
       init_submodules
       ;;
    "")
-     echo "No argument specified"
+     echo "Possible arguments:"
+     echo "> submodules - Clones recursively all submodules"
       ;;
    *)
       echo "Unknown argument: $option"
