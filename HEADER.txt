@@ -1,6 +1,6 @@
 This file is part of ${project_name}, licensed under the MIT License.
 
-Copyright (c) ${year} Tobias Wiese <tobias@twhx.de> and contributors
+Copyright (c) ${year} Tobias Wiese <git@twiese99.de> and contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
