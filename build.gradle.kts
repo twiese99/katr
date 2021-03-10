@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.4.30"
+    kotlin("jvm") version "1.4.31"
     kotlin("kapt") version "1.4.30"
     id("org.gradle.java")
     id("org.gradle.java-library")
